@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+/*Letra que vamos a usar*/
+
+/* COMENTARIOS PARA DAR FORMATO A LA PAGINA PRINCIPAL*/
+h1 {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5%;
+}
+
+tr,
+td {
+    border: 3px solid black;
+}
+
+table {
+    border-spacing: 5px;
+    margin: 0 auto;
+}
+
+
+td {
+    font-family: 'Nunito', sans-serif;
+    padding: 2em;
+    margin: 1em;
+}
+
+
+
+/*LO MEJOR DE LA PRACTICA*/
+/* #firstLine div.key {
+    background-color: red;
+}
+
+#secondLine div.key {
+    background-color: rgb(241, 241, 37);
+}
+
+#thirdLine div.key {
+    background-color: red;
+} */
+
+/* ESTILOS PARA EL TECLADO*/
+#firstLine,
+#secondLine,
+#thirdLine {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5%;
+    column-gap: 1.5%;
+}
+
+/* ESTILO PARA CADA TECLA*/
+div.key {
+    width: 50px;
+    height: 30px;
+    background: #c5c6c8;
+    color: black;
+    text-align: center;
+    border-radius: 0.3em;
+    padding-top: 1%;
+    margin-top: 1%;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+
+/* ESTILOS VERDE*/
+div.keyVerde {
+    width: 50px;
+    height: 30px;
+    background: rgb(88, 212, 5);
+    color: black;
+    text-align: center;
+    border-radius: 0.3em;
+    padding-top: 1%;
+    margin-top: 1%;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+
+/*ESTILO AMARILLA*/
+div.keyAmarillo {
+    width: 50px;
+    height: 30px;
+    background: rgb(241, 241, 37);
+    color: black;
+    text-align: center;
+    border-radius: 0.3em;
+    padding-top: 1%;
+    margin-top: 1%;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+
+/*ESTILO GRIS*/
+div.keyGris {
+    width: 50px;
+    height: 30px;
+    background: rgb(90, 90, 90);
+    color: black;
+    text-align: center;
+    border-radius: 0.3em;
+    padding-top: 1%;
+    margin-top: 1%;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+
+/*TECLADO*/
+div#teclado {
+    width: 35%;
+    margin: 0 auto;
+}
+
+#thirdLine {
+    margin-left: 3%;
+}
+
+/* CLASE QUE ASIGNAREMOS A LAS CELDAS*/
+.verde {
+    color: white;
+    background-color: rgb(88, 212, 5);
+}
+
+.amarillo {
+    color: white;
+    background-color: rgb(255, 208, 0);
+}
+
+.gris {
+    color: white;
+    background-color: rgb(90, 90, 90);
+}
+
+div#container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* DIV DE FALLOS */
+#fallos {
+    width: 30%;
+    border: 3px solid black;
+    text-align: center;
+    margin-right: 10%;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    color: rgb(241, 54, 54);
+}
+
+/*DIV QUE CMENTA EL WORLDE*/
+#wordle {
+    width: 70%;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
